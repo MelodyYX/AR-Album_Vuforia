@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 86
+  controlID: 10
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 711, y: 492}
   m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
-  controlID: 107
+  controlID: 108
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,10 +271,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -190.33334
-    m_HBaseRangeMax: 190.33334
-    m_VBaseRangeMin: -183
-    m_VBaseRangeMax: 183
+    m_HBaseRangeMin: -285.5
+    m_HBaseRangeMax: 285.5
+    m_VBaseRangeMin: -274.5
+    m_VBaseRangeMax: 274.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -344,7 +344,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 76a9fbff38aafbfff6aafbff22adfbffd2b0fbff94b1fbff52b2fbff82b4fbffdafbffffe6fbffff00000000882d0000
+    m_ExpandedIDs: e6fbffff00000000882d00008e2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,14 +444,14 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Unity3D projects\vuforiaTest
+  m_LastProjectPath: C:\Unity3D projects\AR Album_Vuforia
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d62b0000
     m_LastClickedID: 11222
-    m_ExpandedIDs: 00000000ec270000a02a0000e02a0000102b0000262b00009e2b0000ca2b0000d02b0000fe2b0000122c00004a2c00006e2c0000722c00009c2c0000a02c0000c22c0000c82c0000ec2c0000ee2c0000022d00000a2d0000242d0000522d0000f82d0000fa2d0000fc2d0000fe2d0000002e0000022e0000
+    m_ExpandedIDs: 00000000ec270000a02a0000e02a0000102b0000262b00009e2b0000ca2b0000d02b0000fe2b0000122c00004e2c0000722c0000762c0000a02c0000a42c0000c62c0000cc2c0000ee2c0000f02c0000042d00000c2d0000262d0000542d0000002e0000022e0000042e0000062e0000082e00000a2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -479,7 +479,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000ec270000a02a0000e02a0000102b0000262b00009e2b0000ca2b0000d02b0000fe2b0000122c00004a2c00006e2c0000722c00009c2c0000a02c0000c22c0000c82c0000ec2c0000ee2c0000022d00000a2d0000242d0000522d0000f82d0000fa2d0000fc2d0000fe2d0000002e0000022e0000
+    m_ExpandedIDs: ffffffff00000000ec270000a02a0000e02a0000102b0000262b00009e2b0000ca2b0000d02b0000fe2b0000122c0000462c00004e2c0000722c0000762c0000a02c0000a42c0000c62c0000cc2c0000ee2c0000f02c0000042d00000c2d0000262d0000542d0000002e0000022e0000042e0000062e0000082e00000a2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,14 +560,14 @@ MonoBehaviour:
     height: 566
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 520.8523428552465
+  lastFramingTime: 713.4511638325586
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.027877253, y: 0.1833647, z: -0.10048252}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -0.027877253, y: 0.1833647, z: -0.10048252}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -599,9 +599,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 1.8452344
+    m_Target: 22
     speed: 2
-    m_Value: 1.8452344
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2

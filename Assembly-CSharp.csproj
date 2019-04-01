@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{02E39132-9E6C-54CB-4082-E864131346B0}</ProjectGuid>
+    <ProjectGuid>{B4B7836B-09D1-E512-5EC8-D0E8E4F5A443}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AudioVisualizationRes\Scripts\GetAudioSpectrumSamplesData.cs" />
-     <Compile Include="Assets\AudioVisualizationRes\Scripts\Instantiate64Cubes.cs" />
+     <Compile Include="Assets\AudioVisualizationRes\Scripts\InstantiateCubes.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
@@ -71,10 +71,10 @@
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Unity3D projects/vuforiaTest/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Unity3D projects/AR Album_Vuforia/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Unity3D projects/vuforiaTest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Unity3D projects/AR Album_Vuforia/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
