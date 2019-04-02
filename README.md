@@ -2,7 +2,7 @@
 ## Features 
 * Playing a relative song and showing a 3D model according to the image which be recongnized. 
 * 3D Audio Visualization.
-* (Demo) []
+* [Demo](Link of Video)
 
 ## Getting Started
 ### Prerequisites 
@@ -15,8 +15,14 @@
 2. Download and open this project in Unity.
 3. Chanage the Player Settings according to your smartphone's system.
 4. Build and Run the apk on your phone.
+#### OR
+If your phone is working with Android 8.0,  then download the [apk](link of apk) directly and run it on your phone.
 
 ### Runing the tests
 1. Print the following picture or open it on another screen.
-2. Start the app and scan this picture.
-3. If everything goes well, you will heard the music and see the robot and audio spectrums like this.
+   ![Target image](https://github.com/MelodyYX/ARAlbum_Vuforia/blob/master/Assets/AudioVisualizationRes/ImageTargetRobot.jpg) 
+2. Start the app and scan this picture. 
+   
+3. If everything goes well, you will hear the music, see the robot and audio spectrums like this:
+   ![Demo image](https://github.com/MelodyYX/ARAlbum_Vuforia/blob/master/demo%20image.jpg)
+
