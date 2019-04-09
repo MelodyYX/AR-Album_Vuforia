@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1189811554515658}
+  m_RootGameObject: {fileID: 1393922559584200}
   m_IsPrefabAsset: 1
---- !u!1 &1189811554515658
+--- !u!1 &1393922559584200
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4806757004407930}
-  - component: {fileID: 114036141462283214}
+  - component: {fileID: 4396286898471762}
+  - component: {fileID: 114303266062500102}
   m_Layer: 0
   m_Name: AudioVisalization
   m_TagString: Untagged
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4806757004407930
+--- !u!4 &4396286898471762
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1189811554515658}
+  m_GameObject: {fileID: 1393922559584200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114036141462283214
+--- !u!114 &114303266062500102
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1189811554515658}
+  m_GameObject: {fileID: 1393922559584200}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a2634a9bcfc3e841b0bd86ef8a0a8a0, type: 3}
@@ -53,4 +53,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myCubePrefab: {fileID: 1230538410861770, guid: 2f4d2f3952a630041b3dc0cb48ef2dce,
     type: 2}
-  spectrumScale: 5
+  spectrumScale: 2
+  useBuffer: 1
