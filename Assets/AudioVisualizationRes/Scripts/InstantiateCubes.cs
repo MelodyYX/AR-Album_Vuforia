@@ -7,6 +7,8 @@ public class InstantiateCubes : MonoBehaviour {
 	public GameObject myCubePrefab;
 	GameObject[] sampleCubes = new GameObject[GetAudioSpectrumSamplesData.samplesNumber];
 	public int spectrumScale;
+	public int rotationSpeed = 2;
+
 
 	// Use this for initialization
 	void Start () {
@@ -36,15 +38,7 @@ public class InstantiateCubes : MonoBehaviour {
 			}
 
 		}
-			
 
-		/*
-		 * for(int i=0; i<GetAudioSpectrumSamplesData.bandsNumber; i++){
-			if(sampleCubes!=null){
-				sampleCubes [i].transform.localScale = new Vector3 (0.05f, (GetAudioSpectrumSamplesData.myFrequencyBands[i] *(i+0.01f) *spectrumScale) + 0.01f, 0.05f);
-			}
-		}
-		*/
-
+		this.transform.Rotate (new Vector3(0,Time.deltaTime*rotationSpeed,0)); // rotate the Audio spectrums
 	}
 }
